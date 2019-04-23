@@ -1,6 +1,7 @@
-n = ARGV[0].to_i #24
-
+n = ARGV[0].to_i # Numero Ingresado 24
+# realiza un ciclo para que recorra
 n.times do |i|
+  # Se agrega una condicion para que si iterador 
   if i%6 == 0 or i%6 == 1
   print '*'
   elsif i%6 == 2 or i%6 == 3
